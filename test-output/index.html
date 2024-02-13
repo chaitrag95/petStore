@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Pet" class="navigator-link">
+              <span class="suite-name border-passed">Pet</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Pet" class="navigator-link ">
+                    <span>C:\Users\HOME\Desktop\pet\test-output\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Pet" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Pet" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Pet" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Pet" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Pet" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Pet" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Pet" class="hide-methods passed suite-Pet"> (hide)</a> <!-- hide-methods passed suite-Pet -->
+                      <a href="#" panel-name="suite-Pet" class="show-methods passed suite-Pet"> (show)</a> <!-- show-methods passed suite-Pet -->
+                    </span>
+                    <div class="method-list-content passed suite-Pet">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="addNewPetToStore">addNewPetToStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="deletePet">deletePet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="deletePet">deletePet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="deletePetWithInvalidId">deletePetWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="deletePetWithInvalidOrderId">deletePetWithInvalidOrderId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="findPetByInvalidId">findPetByInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="getDeleteUser">getDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="getInventoriesByStatus">getInventoriesByStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="getLogoutUser">getLogoutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="getUpdateUser">getUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="getUsersWithList">getUsersWithList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="orderPet">orderPet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="testFindPetsByStatus">testFindPetsByStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="testFindPetsByStatus">testFindPetsByStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.store.PetStoreOrders" class="method navigator-link" hash-for-method="testFindPetsByStatusWithInvalidOrderId">testFindPetsByStatusWithInvalidOrderId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="testUploadPetImage">testUploadPetImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="updateAnExistingPet">updateAnExistingPet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.Pet.PetTest" class="method navigator-link" hash-for-method="updatePetWithForm">updatePetWithForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pet" title="com.petstore.tests.user.UserOperations" class="method navigator-link" hash-for-method="updateUserTest">updateUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Pet -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Pet" class="panel Pet">
+          <div class="suite-Pet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.petstore.tests.Pet.PetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPetToStore">
+                  </a> <!-- addNewPetToStore -->
+                  <span class="method-name">addNewPetToStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePet">
+                  </a> <!-- deletePet -->
+                  <span class="method-name">deletePet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetWithInvalidId">
+                  </a> <!-- deletePetWithInvalidId -->
+                  <span class="method-name">deletePetWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetByInvalidId">
+                  </a> <!-- findPetByInvalidId -->
+                  <span class="method-name">findPetByInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindPetsByStatus">
+                  </a> <!-- testFindPetsByStatus -->
+                  <span class="method-name">testFindPetsByStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadPetImage">
+                  </a> <!-- testUploadPetImage -->
+                  <span class="method-name">testUploadPetImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateAnExistingPet">
+                  </a> <!-- updateAnExistingPet -->
+                  <span class="method-name">updateAnExistingPet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetWithForm">
+                  </a> <!-- updatePetWithForm -->
+                  <span class="method-name">updatePetWithForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pet-class-passed -->
+          <div class="suite-Pet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.petstore.tests.store.PetStoreOrders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePet">
+                  </a> <!-- deletePet -->
+                  <span class="method-name">deletePet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetWithInvalidOrderId">
+                  </a> <!-- deletePetWithInvalidOrderId -->
+                  <span class="method-name">deletePetWithInvalidOrderId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getInventoriesByStatus">
+                  </a> <!-- getInventoriesByStatus -->
+                  <span class="method-name">getInventoriesByStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderPet">
+                  </a> <!-- orderPet -->
+                  <span class="method-name">orderPet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindPetsByStatus">
+                  </a> <!-- testFindPetsByStatus -->
+                  <span class="method-name">testFindPetsByStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindPetsByStatusWithInvalidOrderId">
+                  </a> <!-- testFindPetsByStatusWithInvalidOrderId -->
+                  <span class="method-name">testFindPetsByStatusWithInvalidOrderId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pet-class-passed -->
+          <div class="suite-Pet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.petstore.tests.user.UserOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser">
+                  </a> <!-- createUser -->
+                  <span class="method-name">createUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDeleteUser">
+                  </a> <!-- getDeleteUser -->
+                  <span class="method-name">getDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLogoutUser">
+                  </a> <!-- getLogoutUser -->
+                  <span class="method-name">getLogoutUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUpdateUser">
+                  </a> <!-- getUpdateUser -->
+                  <span class="method-name">getUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersWithList">
+                  </a> <!-- getUsersWithList -->
+                  <span class="method-name">getUsersWithList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserTest">
+                  </a> <!-- updateUserTest -->
+                  <span class="method-name">updateUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pet-class-passed -->
+        </div> <!-- panel Pet -->
+        <div panel-name="test-xml-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HOME\Desktop\pet\test-output\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Pet&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.petstore.resources.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetStoreAPI&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.petstore.tests.Pet.PetTest&quot;/&gt;
+      &lt;class name=&quot;com.petstore.tests.store.PetStoreOrders&quot;/&gt;
+      &lt;class name=&quot;com.petstore.tests.user.UserOperations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetStoreAPI --&gt;
+&lt;/suite&gt; &lt;!-- Pet --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Pet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PetStoreAPI (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Pet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Pet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Pet');
+function tableData_Pet() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addNewPetToStore')
+data.setCell(0, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(0, 3, 8360);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUploadPetImage')
+data.setCell(1, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(1, 3, 4830);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getUpdateUser')
+data.setCell(2, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(2, 3, 3802);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'updateAnExistingPet')
+data.setCell(3, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(3, 3, 2486);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUser')
+data.setCell(4, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(4, 3, 2437);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updatePetWithForm')
+data.setCell(5, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(5, 3, 2422);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getDeleteUser')
+data.setCell(6, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(6, 3, 2318);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deletePet')
+data.setCell(7, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(7, 3, 2291);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getLogoutUser')
+data.setCell(8, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(8, 3, 2269);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testFindPetsByStatus')
+data.setCell(9, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(9, 3, 1439);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'findPetByInvalidId')
+data.setCell(10, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(10, 3, 1283);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deletePet')
+data.setCell(11, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(11, 3, 1229);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFindPetsByStatus')
+data.setCell(12, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(12, 3, 1203);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deletePetWithInvalidId')
+data.setCell(13, 2, 'com.petstore.tests.Pet.PetTest')
+data.setCell(13, 3, 1173);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'orderPet')
+data.setCell(14, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(14, 3, 1171);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getUsersWithList')
+data.setCell(15, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(15, 3, 1152);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getInventoriesByStatus')
+data.setCell(16, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(16, 3, 1152);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'updateUserTest')
+data.setCell(17, 2, 'com.petstore.tests.user.UserOperations')
+data.setCell(17, 3, 1145);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testFindPetsByStatusWithInvalidOrderId')
+data.setCell(18, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(18, 3, 1132);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'deletePetWithInvalidOrderId')
+data.setCell(19, 2, 'com.petstore.tests.store.PetStoreOrders')
+data.setCell(19, 3, 1123);
+window.suiteTableData['Pet']= { tableData: data, tableDiv: 'times-div-Pet'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Pet">
+              </div> <!-- times-div-Pet -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Pet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Pet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.petstore.tests.Pet.PetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewPetToStore</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findPetByInvalidId</span>
+                <span class="method-start">8385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateAnExistingPet</span>
+                <span class="method-start">9671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindPetsByStatus</span>
+                <span class="method-start">12160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetWithForm</span>
+                <span class="method-start">13602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUploadPetImage</span>
+                <span class="method-start">16028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePet</span>
+                <span class="method-start">20861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletePetWithInvalidId</span>
+                <span class="method-start">23157 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.petstore.tests.store.PetStoreOrders</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderPet</span>
+                <span class="method-start">24337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getInventoriesByStatus</span>
+                <span class="method-start">25511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindPetsByStatus</span>
+                <span class="method-start">26665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindPetsByStatusWithInvalidOrderId</span>
+                <span class="method-start">27870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletePet</span>
+                <span class="method-start">29004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletePetWithInvalidOrderId</span>
+                <span class="method-start">30236 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.petstore.tests.user.UserOperations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUser</span>
+                <span class="method-start">31362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateUserTest</span>
+                <span class="method-start">33802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUsersWithList</span>
+                <span class="method-start">34950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUpdateUser</span>
+                <span class="method-start">36104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDeleteUser</span>
+                <span class="method-start">39910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLogoutUser</span>
+                <span class="method-start">42230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42230 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

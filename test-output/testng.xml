@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet">
+	<listeners>
+		<listener class-name="com.petstore.resources.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="PetStoreAPI" preserve-order="true">
+		<classes>
+			<class name="com.petstore.tests.Pet.PetTest" />
+			<class name="com.petstore.tests.store.PetStoreOrders" />
+			<class name="com.petstore.tests.user.UserOperations"></class>
+
+		</classes>
+	</test>
+
+
+</suite>

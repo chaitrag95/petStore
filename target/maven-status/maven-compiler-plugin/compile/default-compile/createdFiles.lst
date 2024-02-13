@@ -1,0 +1,7 @@
+com\petstore\java\PetRequestPOJO.class
+com\petstore\java\TagPOJO.class
+com\petstore\java\PetResponsePOJO.class
+com\petstore\java\OrderPOJO.class
+com\petstore\java\PetCategoryPOJO.class
+com\petstore\resources\ConfigReader.class
+com\petstore\java\UsersPOJO.class
